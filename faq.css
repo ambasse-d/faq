@@ -1,0 +1,21 @@
+body{
+  background-color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  width: 60%;
+  margin: auto;
+}
+
+h1{
+  text-align: center;
+}
+
+.faq-content{
+  padding: 20px;
+  background-color: #ffffffd0;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  margin-bottom: 20px;
+}
+
+
