@@ -18,9 +18,14 @@ input{
   margin-bottom: 10px;
 }
 
+.dark-mode {
+  background-color: #363636;
+  color: #fff;
+}
+
 .faq-base{
   padding: 20px;
-  background-color: #ffffffd0;
+  /* background-color: #ffffffd0; */
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
   margin-bottom: 20px;
@@ -32,5 +37,40 @@ input{
   justify-content: flex-end;
 }
 
+.category{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
 
+.category-icon{
+  width: 30px;
+  height: 30px;
+  margin: auto 5px;
+}
+
+.category-icon > svg{
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+}
+
+.category-title{
+  display: flex;
+}
+  
+.question{
+  font-weight: bold;
+  cursor: pointer;
+  margin: 10px auto;
+}
+.answer {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.hidden {
+  display: none;
+}
 
