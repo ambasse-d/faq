@@ -10,7 +10,8 @@ document.addEventListener("DOMContentLoaded", function () {
   let xhr = new XMLHttpRequest();
 
   //Open the json local file
-  xhr.open("GET", "/faq.json", true);
+  xhr.open("GET", "./index.json", true);
+  console.log("hello")
   //Check if the file is loaded
   xhr.onload = function () {
     if (xhr.status === 200) {
@@ -138,5 +139,4 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
 
-  console.log("faq.js loaded");
 });
