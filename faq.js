@@ -9,8 +9,8 @@ document.addEventListener("DOMContentLoaded", function () {
   //Fetch the faq.json file
   let xhr = new XMLHttpRequest();
 
-  //Open the file and parse it
-  xhr.open("GET", "faq.json", true);
+  //Open the json local file
+  xhr.open("GET", "/faq.json", true);
   //Check if the file is loaded
   xhr.onload = function () {
     if (xhr.status === 200) {
@@ -136,4 +136,7 @@ document.addEventListener("DOMContentLoaded", function () {
   } else {
     disableDarkMode();
   }
+
+
+  console.log("faq.js loaded");
 });
